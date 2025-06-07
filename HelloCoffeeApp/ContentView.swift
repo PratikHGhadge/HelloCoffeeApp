@@ -1,26 +1,30 @@
-//
-//  ContentView.swift
-//  HelloCoffeeApp
-//
-//  Created by Pratik Ghadge on 07/06/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject private var model: CoffeeModel
+    
+    private func populateOrders() async {
+        do {
+            try await model.populateOrders()
+        } catch {
+            print(error)
+        }
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            List(model.orders) { order in
+                OrderCellView(order: order)
+            }
+        }.task {
+            await populateOrders()
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(CoffeeModel(webService: WebService()))
     }
 }

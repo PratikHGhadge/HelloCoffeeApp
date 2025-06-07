@@ -9,7 +9,7 @@ class WebService {
     }
 
     func getOrders() async throws -> [Order] {
-        guard let url = URL(string: "https://island-bramble.glitch.me/test/orders") else {
+        guard let url = URL(string: "https://island-bramble.glitch.me/orders") else {
             throw NetworkError.badUrl
         }
 
