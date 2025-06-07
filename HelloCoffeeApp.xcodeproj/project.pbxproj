@@ -14,6 +14,8 @@
 		F3D9205D2DF42E7D00228527 /* HelloCoffeeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9205C2DF42E7D00228527 /* HelloCoffeeAppTests.swift */; };
 		F3D920672DF42E7E00228527 /* HelloCoffeeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D920662DF42E7E00228527 /* HelloCoffeeAppUITests.swift */; };
 		F3D920692DF42E7E00228527 /* HelloCoffeeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D920682DF42E7E00228527 /* HelloCoffeeAppUITestsLaunchTests.swift */; };
+		F3D920772DF4316B00228527 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D920762DF4316B00228527 /* WebService.swift */; };
+		F3D9207A2DF4325300228527 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D920792DF4325300228527 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F3D920622DF42E7E00228527 /* HelloCoffeeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCoffeeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D920662DF42E7E00228527 /* HelloCoffeeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeeAppUITests.swift; sourceTree = "<group>"; };
 		F3D920682DF42E7E00228527 /* HelloCoffeeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3D920762DF4316B00228527 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F3D920792DF4325300228527 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		F3D9204A2DF42E7500228527 /* HelloCoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				F3D920782DF4323800228527 /* Models */,
+				F3D920752DF4314A00228527 /* Services */,
 				F3D9204B2DF42E7500228527 /* HelloCoffeeAppApp.swift */,
 				F3D9204D2DF42E7500228527 /* ContentView.swift */,
 				F3D9204F2DF42E7D00228527 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				F3D920682DF42E7E00228527 /* HelloCoffeeAppUITestsLaunchTests.swift */,
 			);
 			path = HelloCoffeeAppUITests;
+			sourceTree = "<group>";
+		};
+		F3D920752DF4314A00228527 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3D920762DF4316B00228527 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F3D920782DF4323800228527 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3D920792DF4325300228527 /* Order.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D920772DF4316B00228527 /* WebService.swift in Sources */,
 				F3D9204E2DF42E7500228527 /* ContentView.swift in Sources */,
+				F3D9207A2DF4325300228527 /* Order.swift in Sources */,
 				F3D9204C2DF42E7500228527 /* HelloCoffeeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
