@@ -1,6 +1,12 @@
 import Foundation
 
 class WebService {
+    
+    private var baseUrl: URL
+    
+    init(baseUrl: URL) {
+        self.baseUrl = baseUrl
+    }
 
     enum NetworkError: Error {
         case badUrl
@@ -9,7 +15,7 @@ class WebService {
     }
 
     func getOrders() async throws -> [Order] {
-        guard let url = URL(string: "https://island-bramble.glitch.me/orders") else {
+        guard let url = URL(string: Endpoints.allOrders.path, relativeTo: baseUrl) else {
             throw NetworkError.badUrl
         }
 
