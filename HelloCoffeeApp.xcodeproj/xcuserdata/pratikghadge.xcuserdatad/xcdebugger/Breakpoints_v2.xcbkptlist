@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "71A0FAA3-14E8-45AA-8EF8-0D599A3EDC18"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A3345B5-E9C8-497C-9883-0CE0BF69795B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloCoffeeApp/Services/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "placeOrder(order:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A3345B5-E9C8-497C-9883-0CE0BF69795B - 578cf31772985ecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for HelloCoffeeApp.WebService.placeOrder(order: HelloCoffeeApp.Order) async throws -&gt; HelloCoffeeApp.Order"
+                  moduleName = "HelloCoffeeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/HelloCoffeeApp/HelloCoffeeApp/HelloCoffeeApp/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1127">
+               </Location>
+               <Location
+                  uuid = "5A3345B5-E9C8-497C-9883-0CE0BF69795B - 9334d195e63d63cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for HelloCoffeeApp.WebService.placeOrder(order: HelloCoffeeApp.Order) async throws -&gt; HelloCoffeeApp.Order"
+                  moduleName = "HelloCoffeeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/HelloCoffeeApp/HelloCoffeeApp/HelloCoffeeApp/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "5A3345B5-E9C8-497C-9883-0CE0BF69795B - c83e9ec46873a2cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for HelloCoffeeApp.WebService.placeOrder(order: HelloCoffeeApp.Order) async throws -&gt; HelloCoffeeApp.Order"
+                  moduleName = "HelloCoffeeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/HelloCoffeeApp/HelloCoffeeApp/HelloCoffeeApp/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "5A3345B5-E9C8-497C-9883-0CE0BF69795B - fc97b71bece704c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for HelloCoffeeApp.WebService.placeOrder(order: HelloCoffeeApp.Order) async throws -&gt; HelloCoffeeApp.Order"
+                  moduleName = "HelloCoffeeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/HelloCoffeeApp/HelloCoffeeApp/HelloCoffeeApp/Services/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

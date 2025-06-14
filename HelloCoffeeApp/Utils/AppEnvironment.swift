@@ -16,7 +16,7 @@ enum Endpoints {
         case .allOrders:
             return "/orders"
         case .placeOrder:
-            return "/new-order"
+            return "/newOrder"
         }
     }
 }
